@@ -407,6 +407,73 @@ ModelImporter:
     4300128: stabilizers
     4300130: winglets
     4300132: winglets_glass
+    6400000: cargo_door_1
+    6400002: cargo_door_2
+    6400004: cargo_door_3
+    6400006: cfm56_internal
+    6400008: cfm56_nacelles
+    6400010: cfm56_turbine_left
+    6400012: cfm56_turbine_right
+    6400014: door_left_1
+    6400016: door_left_2
+    6400018: door_right_1
+    6400020: door_right_2
+    6400022: fairings
+    6400024: flight_control_surfaces
+    6400026: glass
+    6400028: iae_v2500_internal
+    6400030: iae_v2500_nacelles
+    6400032: iae_v2500_turbine_left
+    6400034: iae_v2500_turbine_right
+    6400036: main_body
+    6400038: main_gear_door_left_1
+    6400040: main_gear_door_left_2_closed
+    6400042: main_gear_door_left_2_open
+    6400044: main_gear_door_left_3_closed
+    6400046: main_gear_door_left_3_open
+    6400048: main_gear_door_right_1
+    6400050: main_gear_door_right_2_closed
+    6400052: main_gear_door_right_2_open
+    6400054: main_gear_door_right_3_closed
+    6400056: main_gear_door_right_3_open
+    6400058: main_gear_left
+    6400060: main_gear_left_strut_1
+    6400062: main_gear_left_strut_2
+    6400064: main_gear_left_strut_3
+    6400066: main_gear_left_strut_4
+    6400068: main_gear_left_strut_5
+    6400070: main_gear_left_strut_6
+    6400072: main_gear_left_strut_7
+    6400074: main_gear_right
+    6400076: main_gear_right_strut_1
+    6400078: main_gear_right_strut_2
+    6400080: main_gear_right_strut_3
+    6400082: main_gear_right_strut_4
+    6400084: main_gear_right_strut_5
+    6400086: main_gear_right_strut_6
+    6400088: main_gear_right_strut_7
+    6400090: main_wheel_1
+    6400092: main_wheel_2
+    6400094: main_wheel_3
+    6400096: main_wheel_4
+    6400098: nose_gear
+    6400100: nose_gear_door_3_closed
+    6400102: nose_gear_door_3_open
+    6400104: nose_gear_door_left_1_closed
+    6400106: nose_gear_door_left_1_open
+    6400108: nose_gear_door_left_2
+    6400110: nose_gear_door_right_1_closed
+    6400112: nose_gear_door_right_1_open
+    6400114: nose_gear_door_right_2
+    6400116: nose_gear_strut
+    6400118: nose_wheel_1
+    6400120: nose_wheel_2
+    6400122: rudder
+    6400124: sharklets
+    6400126: sharklets_glass
+    6400128: stabilizers
+    6400130: winglets
+    6400132: winglets_glass
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -427,7 +494,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -440,8 +507,8 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
-    addColliders: 0
+    meshCompression: 2
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1

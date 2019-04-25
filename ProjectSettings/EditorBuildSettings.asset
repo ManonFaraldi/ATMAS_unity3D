@@ -5,7 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9c5fe2e252b4bd44d9bb52642b06c9e2
+  - enabled: 1
+    path: Assets/Scenes/SelectionMenu.unity
+    guid: 293c4699a4f926f448048ca4f2e8ebdc
+  - enabled: 1
+    path: Assets/Scenes/Simulation_ATMAS_Landing.unity
+    guid: 9e9a36be13ff8c24785b8405d1cefe69
+  - enabled: 1
+    path: Assets/Scenes/Simulation_ATMAS_TakeOff.unity
+    guid: 3af98a6fd2072684da19c5cd1c85de28
+  - enabled: 1
+    path: Assets/Scenes/Simulation_ATMAS_Waiting.unity
+    guid: b0dfce026d5739946a1ca10f42ea386c
+  - enabled: 1
+    path: Assets/Scenes/Simulation_ATMAS_Transit.unity
+    guid: 4dc6f7dced4dcce40abbd820a50f7f05
+  - enabled: 1
+    path: Assets/Scenes/Simulation_ATMAS_Emergency.unity
+    guid: 5a6c722a6da970748a3cbc0af077a572
   m_configObjects: {}
